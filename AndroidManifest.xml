@@ -29,6 +29,18 @@
         android:label="@string/app_name" >
 
         <activity
+                android:name="com.google.android.glass.sample.stopwatch.StopwatchActivity"
+                android:label="@string/app_name"
+                android:theme="@style/MenuTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
             android:name="com.google.android.glass.sample.stopwatch.MenuActivity"
             android:label="@string/app_name"
             android:theme="@style/MenuTheme"
